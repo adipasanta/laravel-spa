@@ -1,9 +1,11 @@
 {
-    "/js/passport.js": "/js/passport.js",
-    "/js/console.js": "/js/console.js",
-    "/js/main.js": "/js/main.js",
-    "/js/app.js": "/js/app.js",
-    "/css/console.css": "/css/console.css",
-    "/css/main.css": "/css/main.css",
-    "/css/new-main.css": "/css/new-main.css"
+    "/js/passport.js": "/js/passport.js?id=51582aae79ca7d5b79c2",
+    "/js/console.js": "/js/console.js?id=b566c54aa15ecf7eb748",
+    "/js/main.js": "/js/main.js?id=d01a425c4cfc811abd66",
+    "/js/admin.js": "/js/admin.js?id=f1e9ec423cfb752c348d",
+    "/js/app.js": "/js/app.js?id=3fe152bafbd6744d0170",
+    "/css/console.css": "/css/console.css?id=44935eee410ee9160b46",
+    "/css/main.css": "/css/main.css?id=da960ab58d59304f0b6c",
+    "/css/admin.css": "/css/admin.css?id=9c247f4c67a890de9797",
+    "/css/new-main.css": "/css/new-main.css?id=f062ce387418b79576e4"
 }

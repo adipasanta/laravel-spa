@@ -8,7 +8,7 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
         <title>Online Application Portal | Bing Overseas Studies</title>
         {{-- using laravel mix to generate css file --}}
-        <link rel="stylesheet" href="{{ mix('/css/new-main.css') }}" type="text/css" media="all" charset="utf-8" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         @yield('style')
     </head>
     <body id="main-app">

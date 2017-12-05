@@ -1,5 +1,6 @@
 @extends('layout.portal')
 @section('style')
+<link rel="stylesheet" href="{{ mix('/css/new-main.css') }}" type="text/css" media="all" charset="utf-8" />
 <style type="text/css">
     html,body {
     font-family: 'Open Sans', serif;

@@ -45,11 +45,11 @@
 					<div class="navbar-item has-dropdown is-hoverable">
 						<a class="navbar-link">
 							<figure class="image is-24x24 image-profile">
-								<img v-bind:src="image">
+								<img v-bind:src="$auth.user().avatar">
 							</figure>
 						</a>
 						<div class="navbar-dropdown is-right">
-							<span class="navbar-item">Signed as {{name}}</span>
+							<span class="navbar-item">Signed as {{$auth.user().name}}</span>
 							<hr class="navbar-divider">
 							<a class="navbar-item">
 								Edit Profile
@@ -58,7 +58,7 @@
 								Help
 							</a>
 							<hr class="navbar-divider">
-							<a class="navbar-item">
+							<a class="navbar-item" @click="logout">
 								Log Out
 							</a>
 						</div>
@@ -77,6 +77,9 @@
 				this.$store.dispatch('refreshIsmainpage', this.$router.currentRoute.path == '/');
 				document.getElementById('navbar-app-main-burger').classList.toggle('is-active');
 				document.getElementById('navbar-app-main').classList.toggle('is-active');
+			},
+			logout() {
+				this.$auth.logout({makeRequest:false, redirect: '/'})
 			}
 		},
 		data() {
